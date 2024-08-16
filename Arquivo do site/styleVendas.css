@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0;
+    list-style: none;
+}
+
+header{
+background-color:#434e83;
+padding: 60px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+header img
+{
+    width: 100px;
+    height: auto;
+}
+
+header div ul
+{
+display: flex;
+}
+
+
+header div ul li
+{
+margin-right: 15px;
+}
+
+header div ul li a 
+{
+text-decoration: none;
+color:#9e70e8 ;
+font-weight: 800;
+
+}
+
+.section1
+{
+    padding: 250px;
+    display: flex;
+    background-color: #8858ff;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/imag\ fundo\ section1.jpg); /*IMAGEM DE FUNDO*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 300px;
+}
+
+.section1 button 
+{
+    width: 150px ;
+    height: 45px;
+    background-color: #808080;
+    justify-content: center;
+    color: black ;
+    border-color:#ffbfff ;
+    box-shadow: 5px 5px 5px #ca94fb;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section2
+{
+    padding:250px ;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#1a2143 ;
+    display: flex;
+}
+
+.section2 p
+{
+    margin: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    color:#ffceff ;
+}
+
+.section2 h1
+{
+    margin: 30px;
+    font-weight: 300;
+    font-size: 40px;
+    color:#9e70e8 ;
+}
+
+.section3
+{
+    background-image: url(imagens/img\ de\ fundo\ section2.jpg); /*imagem de fundo*/
+    padding: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #d8d9f0;
+}
+
+footer
+{
+    background-color:#d7a1d2 ;
+    color: #b17cff;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer div ul
+{
+    display: flex;
+}
+
+footer div ul li
+{
+    margin-right: 15px;
+}
+
+footer div ul li a 
+{
+    color: #9e70e8;
+    text-decoration: none;
+    font-weight: 350;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
