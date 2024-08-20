@@ -1,0 +1,77 @@
+header
+{
+background-color:#434e83; /*Defininfo cor de fundo*/
+padding: 60px; /*Espaçamento interno ao redor do conteúdo*/
+display: flex; /*Ultiliza o flex box para layout*/
+align-items: center; /*Alinha os itens verticamente*/
+justify-content: space-around; /*Justificando os itens no space arround*/
+}
+
+header a i 
+{
+    padding: 15px; /*largura dá pagina*/
+    font-size: 30px; /*Tamanho dá fonte*/
+    border-radius: 20px; /*Arredondamento dá borda do botão*/
+    color: rgb(135, 204, 181); /*Cor do icone*/
+    background-color:black ;
+}
+
+header a i:hover
+{
+    background-color: #434e83;
+    transition: 0.7;
+    color: rgb(135, 204, 181);
+    color: aquamarine;
+}
+
+header div ul 
+{
+    display: flex;
+}
+
+header div ul li 
+{
+margin-right: 10px;
+}
+
+header div ul li a
+{
+    text-decoration: none;
+    color: #ffe3c9;
+    font-weight: 600;
+}
+
+.sessao1
+{
+  background-image: url(imagens/img\ de\ fundo\ section2.jpg); 
+  padding: 300px;
+  background-position: center;
+  display: contents;
+  background-repeat: no-repeat; 
+  align-items: center;
+  background-color: #434e83;
+  justify-content: center;
+  
+}
+
+.sessao2
+{
+    padding: 150px;
+    background-color:#001f36 ;
+    background-image: url(imagens/img\ de\ fundo\ section2.jpg); 
+    background-size: cover;
+
+
+}
+
+.sessao2 p  
+{
+font-weight: 800;
+color: #ffe3c9;
+}
+
+.sessao3
+{
+    padding: 150px;
+    background-color: aqua; /*Cor de fundo para degradê aula de amanhã*/
+}

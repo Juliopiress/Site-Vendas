@@ -39,17 +39,22 @@ margin-right: 15px; /*Espaçamento entre os itens dá lista*/
 
 /*Estilo para os itens da lsita dentro do cabeçalho*/
 
-header div ul li a 
+header div ul li a
 {
 text-decoration: none; /*Tira o sublinhado dos link*/
 color:#9e70e8 ; /*Cor dá fonte*/
 font-weight: 800; /*Peso dá fonte*/
+}
 
+header div ul li a:hover /*evento de houver quando o mouse passar em cima */
+{
+    color: #ffceff;
+    transition: 0.5s; /*tempo para transição*/
 }
 
 /* CONFIGURANDO OS ESTILO DA PRIMEIRA SESSÃO */
 
-.section1
+.section1 
 {
     padding: 250px; /*Espeçamento interno dos lado*/
     display: flex; /*ultilizando o flexbox para layout*/
@@ -76,6 +81,14 @@ font-weight: 800; /*Peso dá fonte*/
     box-shadow: 5px 5px 5px / #ca94fb; /*Grossura dá borda*/
     border-radius: 10px; /*Borda arredondadas*/
     cursor: pointer; /*Cursor do mouse assim que */
+}
+
+.section1 button:hover
+{
+    background-color: #9e70e8 ;
+    color: #d8d9f0;
+    transition: 0.8s;
+    cursor: pointer;
 }
 
 /* CONFIGURAÇÃO DE ESTILO PRA SEGUNDA SESSÃO */
@@ -155,5 +168,10 @@ footer div ul li a
     text-decoration: none; /*Remove o sublinhado dos links*/
     font-weight: 800; /*Pesso dá fonte*/
     font-family: Georgia, 'Times New Roman', Times, serif; /*Fonte dos links*/
+}
 
+footer div ul li a:hover
+{
+    color: #ca94fb;
+    transition: 0.5s;
 }
