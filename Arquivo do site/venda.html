@@ -8,6 +8,10 @@
 
     <link rel="stylesheet" href="styleVendas.css"> <!--link do css-->
 
+    <script src="https://kit.fontawesome.com/a3908b76ff.js" crossorigin="anonymous"></script>
+
+    <script src="venda.js" defer></script>
+
 </head>
 <body>
     
@@ -15,9 +19,10 @@
     <img src="imagens/icone de baixo site.png" alt=""> <!--Atalho dá imagem-->
 
 <div>
+ 
   <nav> <!--tag usada quanddo tem mais de um link-->
 
-      <ul> <!--lista não ordenada-->
+      <ul class="nav-desktop"> <!--lista não ordenada-->
 
         <li><a href="">Informações</a></li> <!--Iten dá lista dentro de um ancora -->
 
@@ -28,18 +33,22 @@
       </ul>
 
     
-   <!---------------------------------------------------------------------------------------  -->
+   <!--------------------------------------------------------------------------------------------------------->
 
       <!-- Criamos nossa caixa (DIV) para guardar os elementos do Hamburguer quando estiver aberto -->
+       <p></p>
       <div class="mobile-menu" id="mobileMenu">
 
         <!-- Botão para ser utilizado para fechamento da lista -->
         <button id="closeButton" class="close">
+          
             <i class="fas fa-times"></i>
         </button>
 
         <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+        
         <ul class="nav-links-mobile">
+         
             <li>
                 <a href="">TESTE</a>
             </li>
@@ -66,8 +75,9 @@
     </div>
 
     <!-- Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular -->
+     
   <button class="hamburger" id="hamburgerButton">
-      <i class="fas fa-bars"></i>
+       <i class="fas fa-bars"></i>
   </button>
 
   <!-- Fim do Menu de Navegação -->

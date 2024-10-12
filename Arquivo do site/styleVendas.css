@@ -177,7 +177,7 @@ footer div ul li a:hover
 }
 
 
-
+/* --------------------------------Configuração menu mobile-------------------------------------------- */
 
 .mobile-menu { /*Estilização da caixa Mobile quando aberta*/
     display: none; /*Display: Nenhum*/
@@ -229,4 +229,64 @@ footer div ul li a:hover
 
 .flex {
     display: flex;
+}
+
+@media(max-width: 834px) {
+
+    html {
+        font-size: 12px;
+    }
+     
+    header{
+        padding: 30px;
+    }
+
+    header img {
+        width: 4em;
+        height: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+
+    }
+
+    .mobile-menu {
+        z-index: 999;
+    }
+
+    #btn-header {
+        display: none;
+    }
+
+    .cad-mobile button {
+        width: 14rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: #f8f4f46c;
+        color: #000000;
+    }
+
+
+
+    .cad-mobile button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-desktop
+    {
+        display: none;
+        justify-content: right
+    }
+
+   .titulo-site
+   {
+      font-size: 2em;
+      
+   }
 }
